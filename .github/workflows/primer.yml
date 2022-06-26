@@ -12,3 +12,8 @@ jobs:
       - name: Echo the message
         run:
           echo "Hola al primer workflow"
+      - name: Obtener la fecha
+        run: date
+      - run: ls -l
+
+      
