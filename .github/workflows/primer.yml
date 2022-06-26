@@ -3,7 +3,7 @@ name: primer workflow
 on:
   push:
     branches:
-      - develop
+      - feature/draft
 
 jobs:
   hello_world:
